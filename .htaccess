@@ -1,0 +1,15 @@
+
+# BEGIN WordPress
+
+# END WordPress
+
+##Begin Custom php.ini
+<IfModule mod_suphp.c>
+suPHP_ConfigPath /home/eltribun/public_html
+</IfModule>
+<Files php.ini >
+Order deny,allow
+Deny from All
+</Files>
+####End Custom php.ini
+
